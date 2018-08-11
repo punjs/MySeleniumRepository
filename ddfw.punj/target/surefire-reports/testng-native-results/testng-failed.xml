@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="com.ddfw.punj.testcases.TestCaseB">
+        <methods>
+          <include name="extentquit"/>
+        </methods>
+      </class> <!-- com.ddfw.punj.testcases.TestCaseB -->
+      <class name="com.ddfw.punj.testcases.TestCaseA">
+        <methods>
+          <include name="TestA2"/>
+          <include name="TestA3"/>
+          <include name="extentquit"/>
+          <include name="TestA1"/>
+        </methods>
+      </class> <!-- com.ddfw.punj.testcases.TestCaseA -->
+      <class name="com.ddfw.punj.testcases.TestCaseC">
+        <methods>
+          <include name="extentquit"/>
+        </methods>
+      </class> <!-- com.ddfw.punj.testcases.TestCaseC -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->

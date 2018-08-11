@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="67" started-at="2018-06-15T23:03:30Z" finished-at="2018-06-15T23:03:30Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="67" started-at="2018-06-15T23:03:30Z" finished-at="2018-06-15T23:03:30Z">
+      <class name="com.ddfw.punj.AppTest">
+        <test-method status="PASS" signature="testApp()[pri:0, instance:testApp(com.ddfw.punj.AppTest)]" name="testApp" duration-ms="1" started-at="2018-06-16T09:03:30Z" finished-at="2018-06-16T09:03:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testApp -->
+      </class> <!-- com.ddfw.punj.AppTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

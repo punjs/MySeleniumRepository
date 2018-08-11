@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 1, Errors: 0, Skipped: 2, Time elapsed: 10.849 sec <<< FAILURE!
+TestA1(com.ddfw.punj.testcases.TestCaseA)  Time elapsed: 9.162 sec  <<< FAILURE!
+java.lang.AssertionError: Locator not correct- signin_xpath
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.ddfw.punj.base.BaseTest.reportFailure(BaseTest.java:199)
+	at com.ddfw.punj.base.BaseTest.getElement(BaseTest.java:107)
+	at com.ddfw.punj.base.BaseTest.verifyText(BaseTest.java:177)
+	at com.ddfw.punj.testcases.TestCaseA.TestA1(TestCaseA.java:31)
+

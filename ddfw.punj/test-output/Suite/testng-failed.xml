@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.ddfw.punj.testcases.TestCaseA">
+        <methods>
+          <include name="TestA2"/>
+          <include name="TestA3"/>
+          <include name="extentquit"/>
+          <include name="TestA1"/>
+        </methods>
+      </class> <!-- com.ddfw.punj.testcases.TestCaseA -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
